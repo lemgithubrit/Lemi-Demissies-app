@@ -2,7 +2,8 @@ import streamlit as st
 #header
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide")  
 st.markdown("# Main Page 🎈")
-st.sidebar.markdown("# Side Page 🎈")
+st.sidebar.markdown("<h1 style='text-align: center; color: orange;'>Well Come🎈</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: center; color: orange;'>Side Page 🎈</h1>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: orange;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
 st.write("Five major cereals (Teff, Wheat, Maize, Sorghum and Barley)")
 st.write("-----------")
@@ -90,8 +91,7 @@ st.download_button(
      mime='text/csv',
  )
 
-#sidebar 
-st.sidebar.title("Wellcome")    
+#sidebar   
 date = st.sidebar.date_input("Date")
 text=st.sidebar.text_area("Write Comment Here")
 st.write(text)
