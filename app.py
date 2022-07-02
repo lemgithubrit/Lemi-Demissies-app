@@ -136,7 +136,18 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
-
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("url_goes_here")
+    }
+   .sidebar .sidebar-content {
+        background: url("https://www.impactplus.com/blog/the-psychology-of-design-the-color-green")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
 
 
 
