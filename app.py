@@ -132,12 +132,11 @@ st.balloons()
 color = st.sidebar.color_picker('Pick A Color', '#00f900')
 st.sidebar.write('The current color is', color)
 st.write('Developer Lemi Demissie PhD student at Adama Science and Technology University')
-st.markdown("<h1 style='text-align: center; color: orange;'>Streamlit Is a Faster Way To Build And Deploy Data Apps</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: blue;'>Streamlit Is a Faster Way To Build And Deploy Data Apps</h1>", unsafe_allow_html=True)
 
 
 
-def highlight_survived(s):
-    return ['background-color: black']*len(s) if s.Survived else ['background-color:black']*len(s)
+
 
 
 
