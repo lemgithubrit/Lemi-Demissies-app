@@ -140,6 +140,13 @@ st.markdown("<h1 style='text-align: center; color: orange;'>Streamlit Is a Faste
 
 
 
+def bg_colour_col (col):
+    colour = '#EC0202'
+    return ['background-color: %s' % colour 
+                if col.name=='Total' or i==4   # color column `Total` or row `4`
+                else ''
+             for i,x in col.iteritems()]
 
+df.style.apply(bg_colour_col)
 
 
