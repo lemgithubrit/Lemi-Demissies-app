@@ -133,4 +133,4 @@ color = st.sidebar.color_picker('Pick A Color', '#00f900')
 st.sidebar.write('The current color is', color)
 st.write('Developer Lemi Demissie PhD student at Adama Science and Technology University')
 
-st.write("1234")
+
