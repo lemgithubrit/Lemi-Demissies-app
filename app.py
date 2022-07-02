@@ -135,24 +135,40 @@ st.write('Developer Lemi Demissie PhD student at Adama Science and Technology Un
 st.markdown("<h1 style='text-align: center; color: orange;'>Streamlit Is a Faster Way To Build And Deploy Data Apps</h1>", unsafe_allow_html=True)
 
 
-
+import requests
+import streamlit as st
 from streamlit_lottie import st_lottie
-from streamlit_lottie import st_lottie_spinner
 
-def load_lottieurl(url: str):
+
+def load_lottie_url(url: str):
     r = requests.get(url)
     if r.status_code != 200:
         return None
     return r.json()
+    
+    
+lottie_animation_1 = "https://assets5.lottiefiles.com/packages/lf20_1pxqjqps.json"
+ 
+lottie_anime_json = load_lottie_url(lottie_animation_1)
 
-lottie_url = "https://assets6.lottiefiles.com/packages/lf20_2UeWRZ.json"
-lottie_json = load_lottieurl(lottie_url)
-st_lottie(lottie_json)
 
-if st.button("Download"):
-    with st_lottie_spinner(lottie_json)
-        time.sleep(5)
-    st.balloons()
+lottie_animation_2 = "https://assets5.lottiefiles.com/packages/lf20_puciaact.json"
+ 
+lottie_anime_json_2 = load_lottie_url(lottie_animation_2)
+
+
+st.title('This demo shows streamlit-lottie with Lottie Animations')
+
+
+
+st_lottie(lottie_anime_json, key = "hello")
+
+
+st.markdown('# Lottie Animations are a great alternative for GIFs') 
+
+st_lottie(lottie_anime_json_2, key = "humans")
+
+st.markdown("### This is amazing")
 
 
 
