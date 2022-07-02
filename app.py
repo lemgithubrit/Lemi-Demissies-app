@@ -1,9 +1,9 @@
 import streamlit as st 
 #header
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide") 
-st.markdown("<h1 style='text-align: center; color: blue;'>Main Page 🎈</h1>", unsafe_allow_html=True)
-st.sidebar.markdown("<h1 style='text-align: center; color: blue;'>Side Page 🎈</h1>", unsafe_allow_html=True)
-st.sidebar.markdown("<h1 style='text-align: center; color: orange;'> Well Come🎈</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: white;'>Main Page 🎈</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: left; color: orange;'>Side Page 🎈</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: left; color: orange;'> Well Come🎈</h1>", unsafe_allow_html=True)
 st.sidebar.title("Side Page")
 st.markdown("<h1 style='text-align: center; color: orange;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
 st.write("Five major cereals (Teff, Wheat, Maize, Sorghum and Barley)")
@@ -11,9 +11,9 @@ st.write("-----------")
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 #title at center
-st.markdown("<h1 style='text-align: center; color: orange;'>Available Data</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: orange;'>Available Data</h1>", unsafe_allow_html=True)
 #subheader
-st.markdown("<h1 style='text-align: center; color: orange;'>A.Physical Properties</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: orange;'>A.Physical Properties</h1>", unsafe_allow_html=True)
 st.write("(Size, Shape, Roundness,  Sphercity, Volume, Bulk Density, Solid Density, Porosity, Shrinkage, Color and Appearance and Moisture Content)")
 import pandas as pd
 df =pd.DataFrame({
