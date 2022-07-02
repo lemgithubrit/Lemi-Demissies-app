@@ -135,14 +135,7 @@ st.write('Developer Lemi Demissie PhD student at Adama Science and Technology Un
 st.markdown("<h1 style='text-align: center; color: orange;'>Streamlit Is a Faster Way To Build And Deploy Data Apps</h1>", unsafe_allow_html=True)
 
 
-import streamlit as st
-import matplotlib.pyplot as plt
-import numpy as np
 
-rand=np.random.normal(1, 2, size=20)
-fig, ax = plt.subplots()
-ax.hist(rand, bins=15)
-st.pyplot(fig)
 
 
 
