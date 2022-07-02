@@ -138,13 +138,7 @@ st.markdown("<h1 style='text-align: center; color: orange;'>Streamlit Is a Faste
 
 
 
-{
-    "primaryColor": "red",
-    "backgroundColor": "orange",
-    "secondaryBackgroundColor": "blue",
-    "textColor": "white",
-    "font": "serif",
-}
+
 
 
 
