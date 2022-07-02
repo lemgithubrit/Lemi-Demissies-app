@@ -2,6 +2,13 @@ import streamlit as st
 #header
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide")  
 st.markdown("# Main Page 🎈")
+
+
+st.sidebar.image(logo_url, width=100)
+st.sidebar.title("Streamlit Dashboard Demo")
+
+
+
 st.sidebar.title("Well Come")
 st.sidebar.title("Side Page")
 st.markdown("<h1 style='text-align: center; color: orange;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
