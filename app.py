@@ -40,7 +40,7 @@ st.download_button(
      file_name='large_df.csv',
      mime='text/csv',
  )
-st.markdown("<h1 style='text-align: left; color: purple;'>B.Flow Properties</h1>", unsafe_allow_html=True) 
+st.markdown("<h1 style='text-align: left; color: orange;'>B.Flow Properties</h1>", unsafe_allow_html=True) 
 import streamlit as st
 import pandas as pd
 df =pd.DataFrame({
@@ -65,7 +65,7 @@ st.download_button(
      file_name='large_df.csv',
      mime='text/csv',
  )
-st.markdown("<h1 style='text-align: left; color: green;'>C.Segregation Properties </h1>", unsafe_allow_html=True) 
+st.markdown("<h1 style='text-align: left; color: orange;'>C.Segregation Properties </h1>", unsafe_allow_html=True) 
 import streamlit as st
 import pandas as pd
 df =pd.DataFrame({
