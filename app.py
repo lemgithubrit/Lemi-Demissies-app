@@ -136,6 +136,8 @@ st.markdown("<h1 style='text-align: center; color: orange;'>Streamlit Is a Faste
 
 
 
+def highlight_survived(s):
+    return ['background-color: black']*len(s) if s.Survived else ['background-color:black']*len(s)
 
 
 
