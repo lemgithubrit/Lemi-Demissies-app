@@ -40,7 +40,7 @@ st.download_button(
      file_name='large_df.csv',
      mime='text/csv',
  )
-st.subheader("B.Flow Properties ")  
+st.markdown("<h1 style='text-align: left; color: orange;'>B.Flow Properties</h1>", unsafe_allow_html=True) 
 import streamlit as st
 import pandas as pd
 df =pd.DataFrame({
@@ -139,7 +139,7 @@ st.markdown("<h1 style='text-align: center; color: orange;'>Streamlit Is a Faste
 
 
 
-st.markdown("<h1 style='text-align: left; color: orange;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
+
 
 
 
