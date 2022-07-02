@@ -143,7 +143,7 @@ st.markdown(
         background: url("url_goes_here")
     }
    .sidebar .sidebar-content {
-        background: url("https://www.impactplus.com/blog/the-psychology-of-design-the-color-green")
+        background: url("https://assets10.lottiefiles.com/private_files/lf30_w1nvcyqq.json")
     }
     </style>
     """,
