@@ -10,7 +10,7 @@ st.write("-----------")
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 #title at center
-st.markdown("<h1 style='text-align: left; color: red;'>Available Data</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: lemon;'>Available Data</h1>", unsafe_allow_html=True)
 #subheader
 st.markdown("<h1 style='text-align: left; color: orange;'>A.Physical Properties</h1>", unsafe_allow_html=True)
 st.write("(Size, Shape, Roundness,  Sphercity, Volume, Bulk Density, Solid Density, Porosity, Shrinkage, Color and Appearance and Moisture Content)")
