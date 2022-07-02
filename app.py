@@ -1,8 +1,9 @@
 import streamlit as st 
 #header
-st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide")  
-st.markdown("# Main Page 🎈")
-st.sidebar.title("Well Come")
+st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide") 
+st.markdown("<h1 style='text-align: center; color: blue;'>Main Page 🎈</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: center; color: blue;'>Side Page 🎈</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: center; color: orange;'> Well Come🎈</h1>", unsafe_allow_html=True)
 st.sidebar.title("Side Page")
 st.markdown("<h1 style='text-align: center; color: orange;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
 st.write("Five major cereals (Teff, Wheat, Maize, Sorghum and Barley)")
@@ -10,9 +11,9 @@ st.write("-----------")
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 #title at center
-st.title("Available Data") 
+st.markdown("<h1 style='text-align: center; color: orange;'>Available Data</h1>", unsafe_allow_html=True)
 #subheader
-st.subheader("A.Physical Properties ")
+st.markdown("<h1 style='text-align: center; color: orange;'>A.Physical Properties</h1>", unsafe_allow_html=True)
 st.write("(Size, Shape, Roundness,  Sphercity, Volume, Bulk Density, Solid Density, Porosity, Shrinkage, Color and Appearance and Moisture Content)")
 import pandas as pd
 df =pd.DataFrame({
@@ -65,7 +66,7 @@ st.download_button(
      file_name='large_df.csv',
      mime='text/csv',
  )
-st.subheader("C.Segregation Properties ")  
+st.markdown("<h1 style='text-align: left; color: orange;'>C.Segregation Properties </h1>", unsafe_allow_html=True) 
 import streamlit as st
 import pandas as pd
 df =pd.DataFrame({
