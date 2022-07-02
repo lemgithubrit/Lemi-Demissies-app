@@ -4,7 +4,6 @@ st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide")
 st.markdown("# Main Page 🎈")
 
 
-st.sidebar.image(logo_https://www.google.com/search?q=lemidemissie&sxsrf=ALiCzsbUdRtHNyK-qeQfZG4hMZPLu-kI8w:1656761991636&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjajvSvj9r4AhUUgM4BHRYtD0sQ_AUoAnoECAEQBA&biw=1366&bih=661&dpr=1#imgrc=khJAEAma6kcw3M, width=100)
 st.sidebar.title("Streamlit Dashboard Demo")
 
 
