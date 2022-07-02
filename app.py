@@ -104,7 +104,7 @@ for uploaded_file in uploaded_files:
 #add file
 st.write("##")
 st.write("---") 
-st.subheader("Registration")
+st.markdown("<h1 style='text-align: left; color: orange;'>Registration</h1>", unsafe_allow_html=True) 
 frist,second,last=st.columns(3)
 frist.text_input("Frist Name")
 second.text_input("Middle Name")
