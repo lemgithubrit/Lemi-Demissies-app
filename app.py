@@ -2,7 +2,7 @@ import streamlit as st
 #header
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide") 
 st.title("Main Page 🎈")
-st.sidebar.markdown("<h1 style='text-align: left; color: orange;'>Side Page 🎈</h1>", unsafe_allow_html=True)
+st.sidebar.title("Side Page 🎈")
 st.sidebar.markdown("<h1 style='text-align: left; color: orange;'> Well Come🎈</h1>", unsafe_allow_html=True)
 st.sidebar.title("Side Page")
 st.markdown("<h1 style='text-align: center; color: orange;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
