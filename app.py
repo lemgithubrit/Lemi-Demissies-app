@@ -135,7 +135,18 @@ st.write('Developer Lemi Demissie PhD student at Adama Science and Technology Un
 st.markdown("<h1 style='text-align: center; color: orange;'>Streamlit Is a Faster Way To Build And Deploy Data Apps</h1>", unsafe_allow_html=True)
 
 
+from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie_spinner
 
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+lottie_url = "https://assets6.lottiefiles.com/packages/lf20_2UeWRZ.json"
+lottie_json = load_lottieurl(lottie_url)
+st_lottie(lottie_json)
 
 
 
