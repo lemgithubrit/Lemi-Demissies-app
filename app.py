@@ -1,7 +1,7 @@
 import streamlit as st 
 #header
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide") 
-st.markdown("<h1 style='text-align: left; color: white;'>Main Page 🎈</h1>", unsafe_allow_html=True)
+st.title("Main Page 🎈")
 st.sidebar.markdown("<h1 style='text-align: left; color: orange;'>Side Page 🎈</h1>", unsafe_allow_html=True)
 st.sidebar.markdown("<h1 style='text-align: left; color: orange;'> Well Come🎈</h1>", unsafe_allow_html=True)
 st.sidebar.title("Side Page")
@@ -11,7 +11,7 @@ st.write("-----------")
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 #title at center
-st.markdown("<h1 style='text-align: left; color: orange;'>Available Data</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: red;'>Available Data</h1>", unsafe_allow_html=True)
 #subheader
 st.markdown("<h1 style='text-align: left; color: orange;'>A.Physical Properties</h1>", unsafe_allow_html=True)
 st.write("(Size, Shape, Roundness,  Sphercity, Volume, Bulk Density, Solid Density, Porosity, Shrinkage, Color and Appearance and Moisture Content)")
@@ -41,7 +41,7 @@ st.download_button(
      file_name='large_df.csv',
      mime='text/csv',
  )
-st.markdown("<h1 style='text-align: left; color: orange;'>B.Flow Properties</h1>", unsafe_allow_html=True) 
+st.markdown("<h1 style='text-align: left; color: yellow;'>B.Flow Properties</h1>", unsafe_allow_html=True) 
 import streamlit as st
 import pandas as pd
 df =pd.DataFrame({
@@ -66,7 +66,7 @@ st.download_button(
      file_name='large_df.csv',
      mime='text/csv',
  )
-st.markdown("<h1 style='text-align: left; color: orange;'>C.Segregation Properties </h1>", unsafe_allow_html=True) 
+st.markdown("<h1 style='text-align: left; color: green;'>C.Segregation Properties </h1>", unsafe_allow_html=True) 
 import streamlit as st
 import pandas as pd
 df =pd.DataFrame({
