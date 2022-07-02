@@ -27,24 +27,6 @@ df =pd.DataFrame({
   'Sphericity': [10, 20, 40, 50,55]
 })
 st.table(df)
-
-def highlight_survived(s):
-    return ['background-color: green']*len(s) if s.Survived else ['background-color: red']*len(s)
-
-def color_survived(val):
-    color = 'green' if val else 'red'
-    return f'background-color: {color}'
-
-st.dataframe(df.style.apply(highlight_survived, axis=1))
-st.dataframe(df.style.applymap(color_survived, subset=['Survived']))
-
-
-
-
-
-
-
-
 @st.cache
 def convert_df(df):
      # IMPORTANT: Cache the conversion to prevent computation on every rerun
