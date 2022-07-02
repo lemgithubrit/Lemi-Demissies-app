@@ -136,18 +136,5 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url("url_goes_here")
-    }
-   .sidebar .sidebar-content {
-        background: url("https://assets10.lottiefiles.com/private_files/lf30_w1nvcyqq.json")
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-
 
 
