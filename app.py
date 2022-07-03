@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide") 
 st.title("Main Page 🎈")
 st.sidebar.title("Side Page 🎈")
-st.sidebar.markdown("<h1 style='text-align: left; color: red;'> Well Come🎈</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: left; color: orange;'> Well Come🎈</h1>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: orange;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
 st.write("Five major cereals (Teff, Wheat, Maize, Sorghum and Barley)")
 st.write("-----------")
