@@ -142,11 +142,6 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
-options= st.multiselect(
-     'Choce',options = st.multiselect(
-     'What are your favorite food',
-     ['Injera', 'Bread', 'Fast Food', 'Genfo'],
-     ['Meat', 'Kocho']))
 
 
 
