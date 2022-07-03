@@ -146,7 +146,7 @@ options= st.multiselect(
      'Choce',options = st.multiselect(
      'What are your favorite food',
      ['Injera', 'Bread', 'Fast Food', 'Genfo'],
-     ['Meat', 'Kocho'])
+     ['Meat', 'Kocho']))
 
 
 
