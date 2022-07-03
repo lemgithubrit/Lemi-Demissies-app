@@ -142,7 +142,12 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
+options= st.multiselect(
+     'What are your favorite colors',
+     ['Green', 'Yellow', 'Red', 'Blue'],
+     ['Yellow', 'Red'])
 
+st.write('You selected:', options)
 
 
 
