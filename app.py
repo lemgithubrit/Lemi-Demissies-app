@@ -92,6 +92,7 @@ st.download_button(
 
 
 #chart representation
+st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide")
 import pandas as pd
 import numpy as np
 import altair as alt
