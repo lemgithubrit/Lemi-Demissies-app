@@ -22,10 +22,7 @@ df =pd.DataFrame({
   'Angle of Repose':[10, 20, 40, 50,60],
   'Porocity': [10, 20, 40, 50,70],
   'Roundness': [10, 20, 40, 50,60],
-  'Coeffincient of Resistuttion': [1, 2, 3, 4,5],
-  'Coefficient of Friction': [10, 20, 30, 40,50],
-  'Roundness':[10, 20, 40, 50,60],
-  'Sphericity': [10, 20, 40, 50,55]
+  'Coeffincient of Resistuttion': [1, 2, 3, 4,5]
 })
 st.table(df)
 @st.cache
