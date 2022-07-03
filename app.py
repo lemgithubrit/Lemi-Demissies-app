@@ -140,6 +140,7 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
-
+#markdown/st.header/st.subheader etc also support in-line markdown notation
+st.text('Streamlit is **_really_ cool**.')
 
 
