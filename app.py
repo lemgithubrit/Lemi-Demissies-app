@@ -127,6 +127,23 @@ chart_data = pd.DataFrame(
      columns=['a', 'b', 'c'])
 st.line_chart(chart_data)
 
+st.table(df) 
+@st.cache
+def convert_df(df):
+     # IMPORTANT: Cache the conversion to prevent computation on every rerun
+     return df.to_csv().encode('utf-8')
+
+csv = convert_df(df)
+
+st.download_button(
+     label="Download",
+     data=csv,
+     file_name='large_df.csv',
+     mime='text/csv',
+ )
+
+
+
 st.write("##")
 st.write("---") 
 st.markdown("<h1 style='text-align: left; color: orange;'>Registration</h1>", unsafe_allow_html=True) 
