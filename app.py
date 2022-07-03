@@ -136,3 +136,39 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#st.markdown/st.header/st.subheader etc also support in-line markdown notation
+st.text('Streamlit is **_really_ cool**.')st.set_page_config(
+     page_title="Órbitas Relativisticas",
+     page_icon=":star:",
+     layout="wide")
+
+app = hy.HydraApp()
+
+
+@app.addapp(title='Introdução', icon="📜")
+def my_home():
+    st.title("órbitas tipo-tempo para corpos massivos")
