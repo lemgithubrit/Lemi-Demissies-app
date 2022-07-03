@@ -130,7 +130,6 @@ for uploaded_file in uploaded_files:
 #add file
 st.write("##")
 st.write("---") 
-st.write("---") 
 #sidebar
 st.sidebar.checkbox("How Many Grain Crops Do You Know?")
 Grain = st.sidebar.slider('Slide Slider?',0, 15, 5)
