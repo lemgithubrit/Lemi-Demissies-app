@@ -23,6 +23,7 @@ df =pd.DataFrame({
   'Porocity': [10, 20, 40, 50,70],
   'Roundness': [10, 20, 40, 50,60],
   'Coeffincient of Resistuttion': [1, 2, 3, 4,5]
+  'Coeffincient of Friction': [0.1, 0.2, 0.3, 0.4,0.7]
 })
 st.table(df)
 @st.cache
