@@ -12,31 +12,6 @@ st.write("-----------")
 #title at center
 st.markdown("<h1 style='text-align: left; color: blue;'>Available Data</h1>", unsafe_allow_html=True)
 
-import pandas as pd
-import numpy as np
-import altair as alt
-df = pd.DataFrame(
-     np.random.randn(200, 3),
-     columns=['a', 'b', 'c'])
-c = alt.Chart(df).mark_circle().encode(
-     x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
-st.altair_chart(c, use_container_width=True)
-
-import pandas as pd
-import numpy as np
-import altair as alt
-chart_data = pd.DataFrame(
-     np.random.randn(50, 3),
-     columns=["a", "b", "c"])
-import pandas as pd
-import numpy as np
-
-st.bar_chart(chart_data)
-chart_data = pd.DataFrame(
-     np.random.randn(20, 3),
-     columns=['a', 'b', 'c'])
-st.line_chart(chart_data)
-
 #subheader
 st.markdown("<h1 style='text-align: left; color: orange;'>A.Physical Properties</h1>", unsafe_allow_html=True)
 st.write("(Size, Shape, Roundness,  Sphercity, Volume, Bulk Density, Solid Density, Porosity, Shrinkage, Color and Appearance and Moisture Content)")
@@ -116,6 +91,36 @@ st.download_button(
      file_name='large_df.csv',
      mime='text/csv',
  )
+
+
+
+import pandas as pd
+import numpy as np
+import altair as alt
+df = pd.DataFrame(
+     np.random.randn(200, 3),
+     columns=['a', 'b', 'c'])
+c = alt.Chart(df).mark_circle().encode(
+     x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
+st.altair_chart(c, use_container_width=True)
+
+import pandas as pd
+import numpy as np
+import altair as alt
+chart_data = pd.DataFrame(
+     np.random.randn(50, 3),
+     columns=["a", "b", "c"])
+import pandas as pd
+import numpy as np
+
+st.bar_chart(chart_data)
+chart_data = pd.DataFrame(
+     np.random.randn(20, 3),
+     columns=['a', 'b', 'c'])
+st.line_chart(chart_data)
+
+
+
 
 #sidebar   
 date = st.sidebar.date_input("Date")
