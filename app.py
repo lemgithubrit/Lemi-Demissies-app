@@ -91,7 +91,7 @@ st.download_button(
  )
 
 
-
+#chart representation
 import pandas as pd
 import numpy as np
 import altair as alt
@@ -116,9 +116,6 @@ chart_data = pd.DataFrame(
      np.random.randn(20, 3),
      columns=['a', 'b', 'c'])
 st.line_chart(chart_data)
-
-
-
 
 #sidebar   
 date = st.sidebar.date_input("Date")
