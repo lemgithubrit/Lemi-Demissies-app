@@ -136,15 +136,3 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
-st.set_page_config(
-     page_title="Órbitas Relativisticas",
-     page_icon=":star:",
-     layout="wide")
-
-app = hy.HydraApp()
-
-
-@app.addapp(title='Introdução', icon="📜")
-def my_home():
-    st.title("órbitas tipo-tempo para corpos massivos")
-
