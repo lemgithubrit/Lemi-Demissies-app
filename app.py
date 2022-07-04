@@ -1,4 +1,4 @@
-Kimport streamlit as st 
+import streamlit as st 
 #header
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide") 
 st.title("Main Page 🎈")
