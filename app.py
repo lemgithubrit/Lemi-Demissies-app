@@ -7,8 +7,26 @@ st.sidebar.markdown("<h1 style='text-align: left; color: orange;'> Well Come🎈
 st.markdown("<h1 style='text-align: center; color: orange;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
 st.write("Five major cereals (Teff, Wheat, Maize, Sorghum and Barley)")
 st.write("-----------")
-# Pie chart, where the slices will be ordered and plotted counter-clockwise:
-#title at center
+
+
+import time
+import requests
+import streamlit as st
+from streamlit_lottie import st_lottie_spinner
+
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+lottie_url = "https://assets1.lottiefiles.com/packages/lf20_nc0px8fd.json"
+lottie_json = load_lottieurl(lottie_url)
+
+with st_lottie_spinner(lottie_json):
+    time.sleep(20)
+    
+    
 st.markdown("<h1 style='text-align: left; color: blue;'>Available Data</h1>", unsafe_allow_html=True)
 
 #subheader
