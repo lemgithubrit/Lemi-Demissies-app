@@ -155,7 +155,7 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 import pandas as pd
-df=pd.read_csc("my_data.csv) 
+df=pd.read_csc("my_data.csv") 
 st.line_chart(df)
 
 
