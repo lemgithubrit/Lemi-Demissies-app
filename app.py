@@ -153,20 +153,7 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
-import streamlit as st
-impot streamlit_lottie as st_lottie
-from streamlit_lottie import st_lottie
-def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-lottie_url_hello = "https://assets6.lottiefiles.com/packages/lf20_dews3j6m.json"
-st_lottie(lottie_hello, key="hello")
-if st.button("Download"):
-    with st_lottie_spinner(lottie_down):
-        time.sleep(5)
-    st.balloons()
+
 
 
 
