@@ -164,7 +164,7 @@ def load_lottieurl(url: str):
 lottie_url_hello = "https://assets6.lottiefiles.com/packages/lf20_dews3j6m.json"
 st_lottie(lottie_hello, key="hello")
 if st.button("Download"):
-    with st_lottie_spinner(lottie_down)
+    with st_lottie_spinner(lottie_down):
         time.sleep(5)
     st.balloons()
 
