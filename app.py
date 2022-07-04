@@ -132,7 +132,7 @@ st.write("##")
 st.write("---") 
 #sidebar
 st.checkbox("How Many Grain Crops Do You Know?")
-Grain = st.sidebar.slider('Slide Slider?',0, 15, 5)
+Grain = st.slider('Slide Slider?',0, 15, 5)
 st.write("I know ", Grain, 'Grain Crops')
 st.checkbox("Which is of This You Know More?", key=button1)
 st.radio(
