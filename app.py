@@ -137,6 +137,16 @@ for uploaded_file in uploaded_files:
       bytes_data=uploaded_file.read()
       st.write("filename:",uploaded_file.name)
       st.write(bytes_data)
+#sidebar
+st.sidebar.checkbox("How Many Grain Crops Do You Know?")
+Grain = st.sidebar.slider('Slide Slider?',0, 15, 5)
+st.sidebar.write("I know ", Grain, 'Grain Crops')
+st.sidebar.checkbox("Which is of This You Know More?", key=button1)
+st.sidebar.radio(
+       "How many Grains?",
+        ["1 Wheat", "2 Teff", "3 Maize","4 Sorghum","5 Barley"],
+        key=button1,
+    )
 #add file
 st.write("##")
 st.write("---") 
