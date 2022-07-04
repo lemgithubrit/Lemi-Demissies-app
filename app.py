@@ -12,7 +12,7 @@ st.write("-----------")
 st.checkbox("How Many Grain Crops Do You Know?")
 Grain = st.slider('Slide Slider?',0, 15, 5)
 st.write("I know ", Grain, 'Grain Crops')
-st.checkbox("Which is of This You Know More?", key=button1)
+st.checkbox("Which is of This You Know More?", key=button)
 st.radio(
        "How many Grains?",
         ["1 Wheat", "2 Teff", "3 Maize","4 Sorghum","5 Barley"],
