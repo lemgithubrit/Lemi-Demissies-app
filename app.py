@@ -161,10 +161,7 @@ def load_lottieurl(url: str):
     if r.status_code != 200:
         return None
     return r.json()
-lottie_url_hello = "https://assets5.lo
-lottie_url_download = "https://assets4
-lottie_hello = load_lottieurl(lottie_u
-lottie_download = load_lottieurl(lotti
+lottie_url_hello = "https://assets6.lottiefiles.com/packages/lf20_dews3j6m.json"
 st_lottie(lottie_hello, key="hello")
 if st.button("Download"):
     with st_lottie_spinner(lottie_down
