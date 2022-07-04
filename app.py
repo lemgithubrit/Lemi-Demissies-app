@@ -154,7 +154,7 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 import streamlit as st
-from streamlit_lottie import st_lottie
+streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie
 def load_lottieurl(url: str):
     r = requests.get(url)
