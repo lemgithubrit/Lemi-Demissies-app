@@ -7,17 +7,6 @@ st.sidebar.markdown("<h1 style='text-align: left; color: orange;'> Well Come🎈
 st.markdown("<h1 style='text-align: center; color: orange;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
 st.write("Five major cereals (Teff, Wheat, Maize, Sorghum and Barley)")
 st.write("-----------")
-
-#sidebar
-st.checkbox("How Many Grain Crops Do You Know?")
-Grain = st.slider('Slide Slider?',0, 15, 5)
-st.write("I know ", Grain, 'Grain Crops')
-st.sidebar.checkbox("Which is of This You Know More?", key=button1)
-st.radio(
-       "How many Grains?",
-        ["1 Wheat", "2 Teff", "3 Maize","4 Sorghum","5 Barley"],
-        key=button1,
-    )
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 #title at center
 st.markdown("<h1 style='text-align: left; color: blue;'>Available Data</h1>", unsafe_allow_html=True)
