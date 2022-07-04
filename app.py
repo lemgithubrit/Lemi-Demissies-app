@@ -153,7 +153,23 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
-
+import streamlit as st
+from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+lottie_url_hello = "https://assets5.lo
+lottie_url_download = "https://assets4
+lottie_hello = load_lottieurl(lottie_u
+lottie_download = load_lottieurl(lotti
+st_lottie(lottie_hello, key="hello")
+if st.button("Download"):
+    with st_lottie_spinner(lottie_down
+        time.sleep(5)
+    st.balloons()
 
 
 
