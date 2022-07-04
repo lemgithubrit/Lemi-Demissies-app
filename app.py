@@ -140,16 +140,7 @@ for uploaded_file in uploaded_files:
 #add file
 st.write("##")
 st.write("---") 
-#sidebar
-st.checkbox("How Many Grain Crops Do You Know?")
-Grain = st.slider('Slide Slider?',0, 15, 5)
-st.write("I know ", Grain, 'Grain Crops')
-st.checkbox("Which is of This You Know More?", key=button1)
-st.radio(
-       "How many Grains?",
-        ["1 Wheat", "2 Teff", "3 Maize","4 Sorghum","5 Barley"],
-        key=button1,
-    )
+
 st.balloons()
 color = st.sidebar.color_picker('Pick A Color', '#00f900')
 st.sidebar.write('The current color is', color)
