@@ -153,7 +153,10 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
-
+st. balloons()
+st. progress( 10)
+with st. spinner('Wait for it. .. '):
+time. sleep (10)
 
 
 
