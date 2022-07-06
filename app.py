@@ -1,4 +1,6 @@
 import streamlit as st 
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
 #header
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide") 
 st.title("Main Page 🎈")
