@@ -136,7 +136,7 @@ st.sidebar.radio(
 #add file
 st.write("##")
 st.write("---") 
-st.sidebar.markdown("<h1 style='text-align: left; color: red;'>Contact Info</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: left; color: black;'>Contact Info</h1>", unsafe_allow_html=True)
 st.sidebar.text_input('Full Name')
 st.sidebar.text_input('Email address')
 st.sidebar.text_input('Phone No')
