@@ -152,6 +152,12 @@ st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster 
 
 
 
-
+fig.add_trace(
+    go.Scatter(
+        x=[1, 2, 3], 
+        y=[4, 5, 6]),
+        row=1, col=1
+    )
+st.plotly_chart(fig)
 
 
