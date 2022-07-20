@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide") 
 st.title("Main Page 🎈")
 st.sidebar.title("Side Page 🎈")
-st.sidebar.markdown("<h1 style='text-align: left; color: orange;'> Well Come🎈</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: left; color: steelblue;'> Well Come🎈</h1>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: steelblue;'>Engineering Properties of Ethiopian Grains Crops</h1>", unsafe_allow_html=True)
 st.write("Five major cereals (Teff, Wheat, Maize, Sorghum and Barley)")
 st.write("-----------")
@@ -142,7 +142,7 @@ st.balloons()
 color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
 st.sidebar.write('The current color is', color)
 st.write('Developer Lemi Demissie PhD student at Adama Science and Technology University')
-st.markdown("<h1 style='text-align: center; color: steelblue;'>Streamlit Is a Faster Way To Build And Deploy Data Apps</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: orange;'>Streamlit Is a Faster Way To Build And Deploy Data Apps</h1>", unsafe_allow_html=True)
 
 
 
