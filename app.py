@@ -9,7 +9,7 @@ st.write("Five major cereals (Teff, Wheat, Maize, Sorghum and Barley)")
 st.write("-----------")
 st.markdown("<h1 style='text-align: left; color: steelblue;'>Available Data</h1>", unsafe_allow_html=True)
 #subheader
-st.markdown("<h1 style='text-align: left; color: orange;'>A.Physical Properties</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: steelblue;'>A.Physical Properties</h1>", unsafe_allow_html=True)
 st.write("(Size, Shape, Roundness,  Sphercity, Volume, Bulk Density, Solid Density, Porosity, Shrinkage, Color and Appearance and Moisture Content)")
 import pandas as pd
 df =pd.DataFrame({
@@ -35,7 +35,7 @@ st.download_button(
      file_name='large_df.csv',
      mime='text/csv',
  )
-st.markdown("<h1 style='text-align: left; color: orange;'>B.Flow Properties</h1>", unsafe_allow_html=True) 
+st.markdown("<h1 style='text-align: left; color: steelblue;'>B.Flow Properties</h1>", unsafe_allow_html=True) 
 import streamlit as st
 import pandas as pd
 df =pd.DataFrame({
@@ -60,7 +60,7 @@ st.download_button(
      file_name='large_df.csv',
      mime='text/csv',
  )
-st.markdown("<h1 style='text-align: left; color: orange;'>C.Segregation Properties </h1>", unsafe_allow_html=True) 
+st.markdown("<h1 style='text-align: left; color: steelblue;'>C.Segregation Properties </h1>", unsafe_allow_html=True) 
 import streamlit as st
 import pandas as pd
 df =pd.DataFrame({
@@ -142,7 +142,7 @@ st.balloons()
 color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
 st.sidebar.write('The current color is', color)
 st.write('Developer Lemi Demissie PhD student at Adama Science and Technology University')
-st.markdown("<h1 style='text-align: center; color: gray;'>Streamlit Is a Faster Way To Build And Deploy Data Apps</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: steelblue;'>Streamlit Is a Faster Way To Build And Deploy Data Apps</h1>", unsafe_allow_html=True)
 
 
 
